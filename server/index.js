@@ -44,7 +44,7 @@ app.use('/api/analytics', analyticsRoutes);
 app.use('/api/shows', showRoutes);
 
 // Health check endpoint
-app.get('/health', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ status: 'OK', message: 'Movie Ticket Booking API is running' });
 });
 

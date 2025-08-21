@@ -446,7 +446,7 @@ npm run dev        # Start development server with nodemon
 
 ### API Health Check
 ```bash
-curl http://localhost:5000/health
+curl http://localhost:5000/
 ```
 
 Response:
